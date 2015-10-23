@@ -4,6 +4,7 @@
 npm install
 npm install git+https://github.com/ProseMirror/prosemirror.git
 cd node_modules/prosemirror
+npm install
 npm run dist
 cd ../../
 npm run demoBabel && npm run demoBrowserify
